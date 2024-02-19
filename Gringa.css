@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    width: 100%;
+    margin:0
+    background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(gringacafe.jpg);
+    align-items: center;
+}
+.navbar {
+background-color: transparent; /* Transparent background for the navigation bar */
+padding: 10px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+    
+.cafe-name {
+color: white;
+font-size: 24px; 
+}
+    
+.navbar ul {
+list-style-type: none;
+display: flex;
+}
+    
+.navbar li {
+margin-right: 20px;
+}
+    
+.navbar a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+transition: color 0.3s;
+}
+    
+.navbar a:hover {
+color: #d8a942; /* Change the color on hover */
+box-shadow: 0 0 10px rgba(223, 181, 11, 0.7); /* Add box shadow on hover */
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 500rem;    /* Footer height */
+  }
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;            /* Footer height */
+  }
